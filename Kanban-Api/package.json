@@ -5,6 +5,9 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -18,7 +21,8 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "migrate": "prisma migrate dev --schema=./src/infra/data/prisma/schema.prisma"
+    "migrate": "prisma migrate dev --schema=./src/infra/data/prisma/schema.prisma",
+    "migrate:deploy": "npx prisma migrate deploy"
   },
   "dependencies": {
     "@apollo/server": "^4.10.4",
