@@ -2,7 +2,7 @@ import { Apollo, APOLLO_OPTIONS } from "apollo-angular";
 import { HttpLink } from "apollo-angular/http";
 import { ApplicationConfig, inject } from "@angular/core";
 import { ApolloClientOptions, InMemoryCache } from "@apollo/client/core";
-import { environment } from "../environment/enviroment";
+import { environment } from "../environments/enviroment";
 
 const uri = environment.apiUrl;
 
