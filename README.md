@@ -4,6 +4,10 @@
 
 https://kanban-client-three.vercel.app/
 
+## Penpot:
+
+https://design.penpot.app/#/view/064214a4-70ce-8065-8004-6cc21418135d?page-id=064214a4-70ce-8065-8004-6cc21418135e&section=interactions&index=0&share-id=e180278a-9a77-8036-8004-7e35f3ceb03a
+
 ## Visão Geral do Projeto
 
 O Kanban Online é uma aplicação criada para facilitar o gerenciamento de tarefas e projetos. Ele permite a criação de projetos, onde cada projeto pode ser dividido em colunas que representam diferentes etapas do processo. Dentro de cada coluna, é possível criar tarefas (tasks) e mover essas tarefas entre as colunas conforme o projeto evolui. Este projeto foi desenvolvido para ajudar equipes a organizar e visualizar o progresso de seus trabalhos de maneira eficiente e intuitiva.
