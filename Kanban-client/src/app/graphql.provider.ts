@@ -1,9 +1,11 @@
-import { Apollo, APOLLO_OPTIONS } from 'apollo-angular';
-import { HttpLink } from 'apollo-angular/http';
-import { ApplicationConfig, inject } from '@angular/core';
-import { ApolloClientOptions, InMemoryCache } from '@apollo/client/core';
+import { Apollo, APOLLO_OPTIONS } from "apollo-angular";
+import { HttpLink } from "apollo-angular/http";
+import { ApplicationConfig, inject } from "@angular/core";
+import { ApolloClientOptions, InMemoryCache } from "@apollo/client/core";
+import { environment } from "../environment/enviroment";
 
-const uri = 'http://localhost:3000/graphql';
+const uri = environment.apiUrl;
+
 export function apolloOptionsFactory(): ApolloClientOptions<any> {
   const httpLink = inject(HttpLink);
   return {
@@ -12,7 +14,7 @@ export function apolloOptionsFactory(): ApolloClientOptions<any> {
   };
 }
 
-export const graphqlProvider: ApplicationConfig['providers'] = [
+export const graphqlProvider: ApplicationConfig["providers"] = [
   Apollo,
   {
     provide: APOLLO_OPTIONS,
