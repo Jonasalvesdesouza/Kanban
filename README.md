@@ -16,7 +16,7 @@ Para rodar o cliente Kanban, siga os seguintes passos:
 
    ```bash
    git clone https://github.com/seu-usuario/kanban-cliente.git
-   cd kanban-cliente
+   cd Kanban-cliente
    ```
 
 2. Instale as dependências:
