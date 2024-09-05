@@ -2,16 +2,6 @@
 
 Esta é a documentação da API do Kanban desenvolvida usando NestJS, Prisma e PostgreSQL, utilizando GraphQL.
 
-## Sumário
-
-1. [Instalação](#instalação)
-2. [Autenticação](#autenticação)
-3. [Gerenciamento de Usuários](#gerenciamento-de-usuários)
-4. [Gerenciamento de Projetos](#gerenciamento-de-projetos)
-5. [Gerenciamento de Colunas](#gerenciamento-de-colunas)
-6. [Gerenciamento de Tarefas](#gerenciamento-de-tarefas)
-7. [Tratamento de Erros](#tratamento-de-erros)
-
 ## 1- Instalação
 
 Para instalar as dependências do projeto, execute:
