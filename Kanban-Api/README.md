@@ -7,6 +7,7 @@ Esta é a documentação da API do Kanban desenvolvida usando NestJS, Prisma e P
 Para instalar as dependências do projeto, execute:
 
 ```bash
+cd Kanban-Api
 npm install
 ```
 
