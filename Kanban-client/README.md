@@ -1,6 +1,6 @@
-# Kanban API Documentation
+# Kanban Client Documentation
 
-Esta é a documentação da API do Kanban desenvolvida usando Angular 18
+Esta é a documentação da Client do Kanban desenvolvida usando Angular 18
 
 ## Instalação
 
